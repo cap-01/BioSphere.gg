@@ -1,0 +1,39 @@
+    /* Set up the loading screen */
+    .loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /*background-image: url("https://storage.googleapis.com/pai-images/229fed52fb7447db913d1cabe79cf37e.jpeg");*/
+      background-color: #040404;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loading-screen img {
+  width: 50px;
+  animation: rotate 5s linear infinite;
+      border-radius: 5px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    /* Hide the loading screen when the page is loaded */
+    .loaded .loading-screen {
+      display: none;
+    }
+    /* Set up the main content area 
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }*/

@@ -1,0 +1,19 @@
+body {
+  background-color: #101010 ;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+}
+
+button {
+    -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.slide-up-container {
+  position: fixed;
+  bottom: -500px; /* set this to the height of your container */
+  transition: bottom 0.3s ease-out;
+}

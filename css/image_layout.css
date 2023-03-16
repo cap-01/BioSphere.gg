@@ -1,0 +1,75 @@
+  .image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    margin: 28px;
+     font-family: 'Montserrat', sans-serif;
+  }
+
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(16, 16, 16, 1.8) 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .overlay h3 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .overlay p {
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0 0;
+    text-align: left;
+  }
+
+  .image-container:hover {
+    transform: scale(1.1);
+  }
+
+  .overlay:hover {
+    opacity: 0;
+  }
+
+  /* Media queries for responsive design */
+
+  /* Small devices (mobile phones, 576px and up) */
+  @media (min-width: 576px) {
+    .image-container {
+      display: block;
+      margin: 0 auto;
+      max-width: 150px;
+    }
+
+    .overlay {
+      padding: 15px;
+      opacity: 0.8;
+    }
+
+    .overlay h3 {
+      font-size: 16px;
+    }
+
+    .overlay p {
+      font-size: 14px;
+    }
+  }

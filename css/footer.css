@@ -1,0 +1,129 @@
+/* Default styles for footer */
+footer {
+  background-color: #151515;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Container to hold categories, contact, and social sections */
+.f-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Category section styles */
+.f-categories {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.f-categories h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.f-categories ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.f-categories li {
+  margin-bottom: 5px;
+}
+
+.f-categories a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Contact section styles */
+.f-contact {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.f-contact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.f-contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.f-contact li {
+  margin-bottom: 5px;
+}
+
+/* Social section styles */
+.f-social {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.f-social h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.f-social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.f-social li {
+  margin-right: 10px;
+}
+
+.f-social a {
+  color: #fff;
+  font-size: 24px; 
+  text-decoration: none;
+}
+
+/* Font Awesome styles */
+.fa {
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  margin-right: .2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  vertical-align: -0.125em;
+  color: inherit;
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.cr-txt {
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+  color: darkgray;
+  margin: 5px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
