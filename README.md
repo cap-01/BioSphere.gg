@@ -1,4 +1,4 @@
-# <img style="border-radius: 2px" src="other/20230312_153648.png" width="auto" height="30px"> BioSphere.gg
+# <img style="border-radius: 2px" src="fav_ico.png" width="auto" height="30px"> BioSphere.gg
 - `BioSphere:` Welcome to my personal [bio](https://google.com/) website![^BETA] Here, you can learn more about me, my interests, and my professional experience. From my education to my work history, I've provided a comprehensive overview of my background. You'll also find some of my recent projects, hobbies, and achievements. Feel free to take a look around and get to know me better. Thank you for visiting!
 
 <img style="" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white" width="60px" /> <img style="" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white" width="60px" /> <img style="" src="https://img.shields.io/badge/ReplIt-0f1726?style=for-the-badge&logo=replit&logoColor=f8640a" width="60px" /> 
